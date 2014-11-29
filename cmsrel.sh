@@ -24,7 +24,7 @@ if [ $remhos = "localhost" ]; then
 else
     echo "ssh -n ${remhos} '${command}'"
     echo "mkdir -p ${new_dir}/src"
-    echo "echo \"\n==== to be in the environment ====\nslogin -v -X -Y -a ${remhos}\nsource ./cmsenv.sh ${remdir}${new_dir}/src\n\""
+    echo "echo \"\n==== to be in the environment ====\nslogin -x ${remhos}\nsource ./cmsenv.sh ${remdir}${new_dir}/src\n\""
 fi
 
 }
