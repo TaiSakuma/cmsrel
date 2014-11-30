@@ -16,7 +16,7 @@ usage: $0 options
     $0 | sh -x
 
 OPTIONS:
- -e print cmsenv commands to enver the CMSSW environment
+ -e print cmsenv commands to enter the CMSSW environment
  -h display help
 EOF
 }
