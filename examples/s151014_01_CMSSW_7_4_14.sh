@@ -1,5 +1,5 @@
 #!/bin/bash
-# Tai Sakuma <tai.sakuma@cern.ch>
+# Tai Sakuma <sakuma@fnal.gov>
 
 ##____________________________________________________________________________||
 source ./cmsrel/cmsrel.sh
@@ -8,23 +8,30 @@ source ./cmsrel/cmsrel.sh
 loctop="/Users/sakuma/work"
 
 ##____________________________________________________________________________||
-cmssw_version=CMSSW_7_5_0_pre2
-new_dir=s150422_01_CMSSW_7_5_0_pre2
+cmssw_version=CMSSW_7_4_14
+new_dir=s151014_01_CMSSW_7_4_14
 
 ##____________________________________________________________________________||
 remhos=sakuma@lxplus.cern.ch
 # scram_arch=slc6_amd64_gcc472
 # scram_arch=slc6_amd64_gcc481
 scram_arch=slc6_amd64_gcc491
-remtop="/afs/cern.ch/user/s/sakuma/work/public"
+remtop="/afs/cern.ch/work/s/sakuma/public/"
 cmsrel
 
 ##____________________________________________________________________________||
 remhos=sakuma@cmslpc-sl6.fnal.gov
 # scram_arch=slc6_amd64_gcc472
+scram_arch=slc6_amd64_gcc481
+remtop="/uscms/home/sakuma/nobackup/work"
+# cmsrel
+
+##____________________________________________________________________________||
+remhos=ts14043@soolin.phy.bris.ac.uk
+# scram_arch=slc6_amd64_gcc472
 # scram_arch=slc6_amd64_gcc481
 scram_arch=slc6_amd64_gcc491
-remtop="/uscms/home/sakuma/nobackup/work"
+remtop="/storage/ts14043/work"
 # cmsrel
 
 ##____________________________________________________________________________||
