@@ -87,8 +87,8 @@ function cmsrel
     remdir="${remtop}${relpwd}/"
 
     if $to_print_cmsenv_cmmands; then
-	print_cmsenv
-	return 0
+        print_cmsenv
+        return 0
     fi
 
     print_cmsrel
