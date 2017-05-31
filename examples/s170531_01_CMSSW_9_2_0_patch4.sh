@@ -8,8 +8,8 @@ source ./cmsrel/cmsrel.sh
 loctop="/Users/sakuma/work"
 
 ##____________________________________________________________________________||
-cmssw_version=CMSSW_9_0_2_patch1
-new_dir=s170502_01_CMSSW_9_0_2_patch1
+cmssw_version=CMSSW_9_2_0_patch4
+new_dir=s170531_01_CMSSW_9_2_0_patch4
 
 ##____________________________________________________________________________||
 remhos=sakuma@lxplus.cern.ch
@@ -19,7 +19,7 @@ remhos=sakuma@lxplus.cern.ch
 # scram_arch=slc6_amd64_gcc493
 scram_arch=slc6_amd64_gcc530
 remtop="/afs/cern.ch/work/s/sakuma/public"
-cmsrel
+# cmsrel
 
 ##____________________________________________________________________________||
 remhos=sakuma@cmslpc-sl6.fnal.gov
@@ -31,14 +31,14 @@ remtop="/uscms/home/sakuma/nobackup/work"
 # cmsrel
 
 ##____________________________________________________________________________||
-remhos=ts14043@soolin.phy.bris.ac.uk
+remhos=ts14043@soolin.dice.priv
 # scram_arch=slc6_amd64_gcc472
 # scram_arch=slc6_amd64_gcc481
 # scram_arch=slc6_amd64_gcc491
 # scram_arch=slc6_amd64_gcc493
 scram_arch=slc6_amd64_gcc530
 remtop="/storage/ts14043/work"
-# cmsrel
+cmsrel
 
 ##____________________________________________________________________________||
 remhos=localhost
